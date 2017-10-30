@@ -5,6 +5,9 @@ A test of Docker Swarm and RabbitMQ
 1. Download and install RabbitMQ
 1. Run RabbitMQ Docker Container
 
+## Create a shared volume
+docker volume create --name HeliVolume
+
 ## Consumer
 ### Build consumer Docker image
 cd consumer
