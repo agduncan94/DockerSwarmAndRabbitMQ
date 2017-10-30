@@ -1,0 +1,22 @@
+{
+  "name": "dockerswarmandrabbitmq",
+  "version": "1.0.0",
+  "description": "A test of Docker Swarm and RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agduncan94/DockerSwarmAndRabbitMQ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agduncan94/DockerSwarmAndRabbitMQ/issues"
+  },
+  "homepage": "https://github.com/agduncan94/DockerSwarmAndRabbitMQ#readme",
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  }
+}

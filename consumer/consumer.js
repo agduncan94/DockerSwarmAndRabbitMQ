@@ -3,7 +3,7 @@
 
 var amqp = require('amqplib/callback_api');
 
-amqp.connect('amqp://localhost', function(err, conn) {
+amqp.connect('amqp://10.11.9.7:5672', function(err, conn) {
   conn.createChannel(function(err, ch) {
     var q = 'task_queue';
 
